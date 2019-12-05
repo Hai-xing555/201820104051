@@ -11,7 +11,7 @@ public class Filter10 implements Filter {
     private Set<String> toExclude = new HashSet<String>();
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
-        toExclude.add("/login");
+//        toExclude.add("/login");
     }
     @Override
     public void destroy() { }
